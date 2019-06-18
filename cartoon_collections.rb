@@ -15,7 +15,7 @@ end
 
 def long_planeteer_calls(array)
   array.any? |word| 
-  word.length == 4
+  word.length = 4
 end
   # code an argument here
   # Your code here
