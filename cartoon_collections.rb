@@ -6,12 +6,15 @@ def roll_call_dwarves(array) # code an argument here
 end
 
 def summon_captain_planet(array)
-  array.each do |planet| 
+  array.map do |planet| 
     planet.capitalize + '!'
   end
   # code an argument here
   # Your code here
 end
+
+
+
 
 def long_planeteer_calls(array)
   array.any? do |word| 
