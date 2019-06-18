@@ -15,6 +15,7 @@ end
 
 def long_planeteer_calls(array)
   array.select |word| 
+  word == 4
   # code an argument here
   # Your code here
 end
