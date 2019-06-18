@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.each do |planet| 
-    planet.capitalize 
+    planet.capitalize + "!"
   end
   # code an argument here
   # Your code here
@@ -22,8 +22,7 @@ end
 end
 
 def find_the_cheese(array)
-  array.include do |cheese|
-    cheese
+  array.include?
   # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
